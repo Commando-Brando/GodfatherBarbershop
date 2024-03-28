@@ -16,8 +16,9 @@
         <div class="">
             <div class="flex justify-between">
                 <!-- Main Nav Links  -->
-                <div id="nav_links" class="flex md:flex">
-                    <div class="flex justify-evenly space-x-7 items-center">
+                <div id="nav_links" class="hidden md:flex ">
+                    <div class="flex justify-around items-center">
+                        <!-- min width set is for centering logo but needs to be adjusted if more is added to navbar -->
                         <a
                             class="py-3 px-5 font-sans text-[#C28D3D] hover:text-black text-2xl cursor-pointer float-left">Home</a>
                         <!-- <a
@@ -38,13 +39,13 @@
                         class="py-3 px-3 text-white text-2xl font-sans bg-[#C28D3D] hover:bg-blue-400 hover:text-yellow-200 rounded transition duration-300">Book
                         Now
                     </a> -->
-                    <a href="https://online.getsquire.com/book/the-social-club-grooming-company-detroit"
+                    <a href="https://online.getsquire.com/booking/book/the-godfather-barbershop-schertz/barber/lily-42/services"
                         class="py-3 px-8 text-white font-semibold bg-[#C28D3D] hover:bg-black hover:text-yellow-600 rounded transition duration-300">Book
                         Now
                     </a>
                 </div>
                 <!-- Hamburger Button  -->
-                <div id="hamburger_menu" class="md:hidden flex items-center">
+                <div id="hamburger_menu" class="md:hidden flex items-center justify-center">
                     <button class="mobile-menu-button">
                         <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
                             stroke="black" class="w-12 h-12">
@@ -64,7 +65,7 @@
             <a class="py-3 px-5 block text-neutral-50 cursor-pointer	hover:text-yellow-200 font-bold text-xl	">Our
                 Story</a> -->
 
-            <a href="https://online.getsquire.com/book/the-social-club-grooming-company-detroit"
+            <a href="https://online.getsquire.com/booking/book/the-godfather-barbershop-schertz/barber/lily-42/services"
                 class="py-3 px-3 block font-bold bg-[#C28D3D] text-xl text-neutral-50 hover:bg-black hover:text-yellow-600 transition duration-300">Book
                 Now
             </a>
@@ -75,7 +76,7 @@
     <!-- Hero Section -->
     <section class="flex items-center justify-center space-x-4 bg-[#3F3F3F] text-white py-20 px-10">
         <!-- Text Section -->
-        <div class="space-y-5 max-w-md">
+        <div class="space-y-5 max-w-md text-center md:text-left">
             <h1 class="text-4xl font-semibold text-[#C28D3D]">Experience Elegance</h1>
             <p class="">Craft your style with our expert barbers where the art of the barber is redefined.
                 Quality and precision in every cut.</p>
@@ -89,8 +90,8 @@
                     <img src="./assets/images/fb_icon.png" alt="Navigation Logo" class="h-12">
                 </a> -->
             </div>
-            <div id="book_now_btn" class="flex items-center space-x-4 md:flex">
-                <a href="https://online.getsquire.com/book/the-social-club-grooming-company-detroit"
+            <div id="book_now_btn" class="flex justify-center md:justify-start items-center space-x-4 md:flex">
+                <a href="https://online.getsquire.com/booking/book/the-godfather-barbershop-schertz/barber/lily-42/services"
                     class="py-3 px-8 text-white font-semibold bg-[#C28D3D] hover:bg-black hover:text-yellow-600 rounded transition duration-300">Book
                     Now
                 </a>
@@ -98,7 +99,8 @@
         </div>
         <!-- Image Section -->
         <div class="hidden lg:block">
-            <img src="./assets/images/hero_image.jpg" alt="Barbershop Interior" class="max-w-md grayscale rounded-1">
+            <img src="./assets/images/hero_image_dark.jpg" alt="Barbershop Interior"
+                class="grayscale max-w-md rounded-1">
         </div>
     </section>
 
@@ -111,8 +113,8 @@
             </div>
             <div class="md:flex md:justify-center md:items-center gap-8">
                 <!-- Address Block -->
-                <div class="mb-6 md:mb-0">
-                    <h3 class="text-xl font-bold mb-2 text-[#C28D3D]">Our Location</h3>
+                <div class="mb-6 md:mb-0 text-center md:text-left">
+                    <h3 class="text-xl font-bold text-[#C28D3D]">Our Location</h3>
                     <p class="py-2"> 1256 Farm-To-Market Rd 78 #109,<br>Schertz, TX 78154</p>
                     <p class="py-1 font-bold text-[#C28D3D]">Phone:</p>
                     <p class="py-1">(210) 251-2122</p>
